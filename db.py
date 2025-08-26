@@ -1,10 +1,14 @@
 from pymongo import MongoClient
-import datetime
+from dotenv import load_dotenv
+import os, datetime
 
-client = MongoClient("mongodb+srv://alokak:1973258@marketing-dev-mlmodel.grvcx8i.mongodb.net/?retryWrites=true&w=majority&appName=marketing-dev-mlmodel")
+load_dotenv()
 
-db = client["phishing_classifier"]   # Database name
-collection = db["predictions"]       # Collection name
+mongo_uri = os.getenv("MONGO_URI")
+
+client = MongoClient(mongo_uri)
+db = client.get_database()  
+collection = db["predictions"]
 
 def save_prediction(url, features, prediction):
     data = {
