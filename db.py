@@ -7,7 +7,7 @@ load_dotenv()
 mongo_uri = os.getenv("MONGO_URI")
 
 client = MongoClient(mongo_uri)
-db = client.get_database()  
+db = client["phishing_classifier"]
 collection = db["predictions"]
 
 def save_prediction(url, features, prediction):
