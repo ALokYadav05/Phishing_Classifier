@@ -65,11 +65,13 @@ Access the app via http://localhost:5000
 - docker ps confirming the container is running
 - EC2 Console showing active instance during demo
 
-<img width="1919" height="902" alt="Screenshot 2025-08-28 125542" src="https://github.com/user-attachments/assets/b077a89a-af8e-4e18-9494-9b66a76dfd92" />
+##Screenshots :##
+
 <img width="1919" height="907" alt="Screenshot 2025-08-28 125511" src="https://github.com/user-attachments/assets/b8dffe99-48db-4b96-b3f5-3489652ecde8" />
-<img width<img width="1894" height="324" alt="Screenshot 2025-08-28 125713" src="https://github.com/user-attachments/assets/5d4509f3-9c0d-4e46-91a3-b35096f32fe5" />
-="1904" height="971" alt="Screenshot 2025-08-28 125111" src="https://github.com/user-attachments/assets/05f55089-cfdc-41e9-a3bc-a9b774a0e794" />
-<img width="1906" height="970" alt="Screenshot 2025-08-28 124926" src="https://github.com/user-attachments/assets/ae4c5f6d-8df2-4a8d-9b2d-061813894060" />
+<img width="1894" height="324" alt="Screenshot 2025-08-28 125713" src="https://github.com/user-attachments/assets/1993056e-879e-4d29-8bd8-3d23876b02da" />
+
+<img width="1906" height="970" alt="Screenshot 2025-08-28 124926" src="https://github.com/user-attachments/assets/98d30b75-5b9a-445e-bfc7-eb035386de27" />
+<img width="1904" height="971" alt="Screenshot 2025-08-28 125111" src="https://github.com/user-attachments/assets/393952b0-ce27-4237-a975-a5134d5dde1d" />
 
 
 ##AWS Cleanup & Billing
