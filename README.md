@@ -22,11 +22,12 @@
 
 ## Overview
 This project showcases a phishing-detection web application:
-- Uses a **pre-trained ML model** (no EDA needed; already preprocessed and encoded)
-- Deployed as a **Docker container** running on an AWS EC2 instance
-- Model files hosted on **S3**
-- Proves full **end-to-end functionality**: Model → Container → Cloud deployment
-
+- Trained an ML model from scratch (performed data exploration and model training)
+- Containerized the app with Docker
+- Deployed the Flask application on AWS EC2
+- Stored and loaded the trained model from Amazon S3
+- Documented and cleaned up all AWS resources (EC2, S3, etc.) to avoid incurring charges
+- Included screenshot proof of deployment, and cleaned up AWS resources post-demo
 ---
 
 ## Architecture
@@ -73,6 +74,8 @@ Access the app via http://localhost:5000
 
 <img width="1906" height="970" alt="Screenshot 2025-08-28 124926" src="https://github.com/user-attachments/assets/98d30b75-5b9a-445e-bfc7-eb035386de27" />
 <img width="1904" height="971" alt="Screenshot 2025-08-28 125111" src="https://github.com/user-attachments/assets/393952b0-ce27-4237-a975-a5134d5dde1d" />
+
+
 
 
 ##AWS Cleanup & Billing
