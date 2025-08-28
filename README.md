@@ -1,6 +1,7 @@
 # Phishing Classifier Web App
 
-**End-to-end phishing URL classifier** using a pre-trained ML model, containerized with Docker, deployed on AWS EC2, with model stored in S3.
+**End-to-end phishing URL classifier** : trained an ML model from scratch, performed basic EDA, containerized the Flask app using Docker, deployed it on AWS EC2, and hosted the trained model on S3.
+
 
 ---
 
