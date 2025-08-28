@@ -47,7 +47,7 @@ Simple and modular architecture ensures the app is portable, scalable, and demon
 
 ## Setup & Run Locally
 ```bash
-git clone https://github.com/your-username/phishing-classifier.git
+git clone https://github.com/ALokYadav05/Phishing_Classifier.git
 cd phishing-classifier
 docker build -t phishing-classifier .
 docker run -d -p 5000:5000 phishing-classifier
@@ -68,13 +68,17 @@ docker run -d -p 5000:5000 phishing-classifier
 - docker ps confirming the container is running
 - EC2 Console showing active instance during demo
 
-## Screenshots :##
-
+## Screenshots :
+====================================================================================================================================================================
 <img width="1919" height="907" alt="Screenshot 2025-08-28 125511" src="https://github.com/user-attachments/assets/b8dffe99-48db-4b96-b3f5-3489652ecde8" />
+====================================================================================================================================================================
 <img width="1894" height="324" alt="Screenshot 2025-08-28 125713" src="https://github.com/user-attachments/assets/1993056e-879e-4d29-8bd8-3d23876b02da" />
+====================================================================================================================================================================
 
 <img width="1906" height="970" alt="Screenshot 2025-08-28 124926" src="https://github.com/user-attachments/assets/98d30b75-5b9a-445e-bfc7-eb035386de27" />
+====================================================================================================================================================================
 <img width="1904" height="971" alt="Screenshot 2025-08-28 125111" src="https://github.com/user-attachments/assets/393952b0-ce27-4237-a975-a5134d5dde1d" />
+====================================================================================================================================================================
 
 
 
