@@ -51,8 +51,9 @@ git clone https://github.com/your-username/phishing-classifier.git
 cd phishing-classifier
 docker build -t phishing-classifier .
 docker run -d -p 5000:5000 phishing-classifier
-Access the app via http://localhost:5000
 ```
+# Access the app via http://localhost:5000
+
 
 ##Deployment on AWS
 - Deployed Docker container on an EC2 instance.
