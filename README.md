@@ -17,7 +17,6 @@
 - [Technologies Used](#technologies-used)
 - [About Me](#about-me)
 - [License](#license)
-
 ---
 
 ## Overview
